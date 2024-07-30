@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:
+    Open Sans,
+    sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100%;
+  text-rendering: optimizelegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+  color: #2F2E41;
+  background: #2F2E41;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  white-space: nowrap;
+}
+
+button:hover {
+  filter: brightness(0.9);
+}
