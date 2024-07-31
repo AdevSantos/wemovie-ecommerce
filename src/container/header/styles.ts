@@ -5,7 +5,7 @@ export const Container = styled.header`
   width: 100%;
   display: flex;
   justify-content: center;
-  ${device.laptop}{
+  ${device.laptop} {
     padding: 0 10px;
   }
 `
@@ -19,6 +19,10 @@ export const Wrapper = styled.div`
   align-items: center;
   justify-content: space-between;
   color: #ffffff;
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
   h1 {
     font-size: 20px;
     font-weight: 700;
@@ -41,8 +45,8 @@ export const Box = styled.div`
   img {
     margin-left: 10px;
   }
-  ${device.tablet}{
-    p{
+  ${device.tablet} {
+    p {
       display: none;
     }
   }

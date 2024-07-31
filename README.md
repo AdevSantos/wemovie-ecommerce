@@ -1,4 +1,4 @@
-# wemovie-ecommerce
+# wefit
 
 e-commerce-challenge
 
@@ -10,14 +10,6 @@ Install libs:
 npm install
 # or
 yarn
-```
-
-start server:
-
-```bash
-npm run server
-# or
-yarn run server
 ```
 
 start project:
